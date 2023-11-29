@@ -5,11 +5,12 @@ import Navbar from '../navbar/Navbar'
 export default function Header() {
 	return (
 		<header className='header'>
-			<Link to= "/Kasa">
+			
 			<h1>
+		<Link to= "/Kasa">
 				<img src={Logo} alt="kasa, location d'appartements" />
-			</h1>
 			</Link>
+			</h1>
 			<Navbar />
 		</header>
 	)
