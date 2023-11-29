@@ -7,9 +7,9 @@ export default function Header() {
 		<header className='header'>
 			
 			<h1>
-		<Link to= "/Kasa/">
+		<a href= "/">
 				<img src={Logo} alt="kasa, location d'appartements" />
-			</Link>
+			</a>
 			</h1>
 			<Navbar />
 		</header>
